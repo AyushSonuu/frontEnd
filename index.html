@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container min-w-full min-h-screen flex  flex-wrap">
+        <div class=" flex-[1.5] max-h-screen overflow-y-scroll overflow-x-hidden box-border bg-slate-800 ">
+            <h2 class="text-xl text-center font-bold  text-white" id="belowThis">PRODUCTS </h2>
+            <div id="imagee">
+
+            </div>
+        </div>
+        <div class=" flex-[7] max-h-screen overflow-y-scroll overflow-x-hidden box-border bg-slate-300">
+            <div class=" w-[100%] bg-slate-700 min-h-screen ">
+                <div class="grid grid-cols-4 gap-4 p-5 pt-8 rounded-lg">
+                    <div class="col-span-2 rounded-lg">
+
+                        <img class="w-[250px] h-[200px] ps-8  rounded-lg " src="" alt="" id="targetImg">
+
+                    </div>
+                    <div class="col-span-2 pt-2 bg-slate-300 rounded-lg">
+                        <div class="w-full h-10">
+                            <h1 class="text-xl bg-slate-300 font-serif font-extrabold text-center" id="productName">
+                            </h1>
+
+                        </div>
+
+
+                        <div class="w-full h-8 mt-6 ">
+
+                            <h1 class="text-xl text-black font-serif  text-start" id="category">
+
+                            </h1>
+                        </div>
+                        <div class="w-full h-8 ">
+
+                            <h1 class="text-xl text-black font-serif  text-start" id="rate">
+
+                            </h1>
+                        </div>
+                        <div class="w-full h-8 ">
+
+                            <h1 class="text-xl text-black font-serif  text-start" id="count">
+
+                            </h1>
+                        </div>
+                        <div class="w-full h-8 flex justify-center mb-2 ">
+
+                            <button class="text-xl text-black font-serif pb-2 ps-2 pe-2 pt-1 bg-slate-100 rounded-md hover:bg-slate-200" id="price">
+                                Buy Now
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-6  p-5 pt-8 rounded-lg">
+
+                    <div class="col-start-2 col-span-4 ps-4 bg-slate-300 rounded-lg">
+
+                        <p id="mainDesc" class="inline "></p>
+                        <span id="dots" class="inline">...</span>
+                        <span id="more" class="hidden"></span>
+                        <button id="myBtn" class="bg-slate-100 rounded-md p-1 mt-2 mb-2 hover:bg-slate-200 block">Read
+                            More</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
